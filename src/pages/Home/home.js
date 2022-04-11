@@ -1,8 +1,10 @@
 import './home.css';
 import '../../assets/fonts/fonts.css';
+import afternoon from '../../assets/images/afternoon.png';
 import bridge from '../../assets/images/bridge.png';
-import sunrise from '../../assets/images/sunrise.png';
+import sunrise2 from '../../assets/images/sunrise2.png';
 import stpete from '../../assets/images/stpete.png';
+import daugava from '../../assets/images/daugava.png';
 
 function Home() {
   return (
@@ -12,13 +14,34 @@ function Home() {
       <div id="imageCarousel" className="carousel" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={sunrise} className="d-block w-100" alt="sunrise" />
+            <img src={daugava} className="d-block w-100" alt="daugava" />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Old Riga Across The Daugava River</h5>
+            </div>
           </div>
           <div className="carousel-item">
             <img src={bridge} className="d-block w-100" alt="bridge" />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Vansu Bridge</h5>
+            </div>
           </div>
           <div className="carousel-item">
             <img src={stpete} className="d-block w-100" alt="stpete" />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>St. Peter's Church</h5>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img src={sunrise2} className="d-block w-100" alt="sunrise2" />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Sunrise Over Riga</h5>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img src={afternoon} className="d-block w-100" alt="afternoon" />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Railway Bridge & Radio Tower</h5>
+            </div>
           </div>
         </div>
       </div>
