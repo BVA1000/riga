@@ -78,6 +78,7 @@ function Gallery() {
               <img src={streets2} alt="streets2" />
             </div>
           </div>
+          <br />
         </div>
 
         {/* Also include things like fun things to do in Riga, History, Fun Facts, etc...*/}
