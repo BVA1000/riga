@@ -9,7 +9,7 @@ import daugava from '../../assets/images/daugava.png';
 function Home() {
   return (
     <div className="container">
-      <h1>- "Dievs Sveti Latviju"</h1>
+      <h1>"Dievs Sveti Latviju"</h1>
 
       <div id="imageCarousel" className="carousel" data-bs-ride="carousel">
         <div className="carousel-inner">

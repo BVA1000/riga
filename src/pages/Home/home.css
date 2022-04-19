@@ -1,49 +1,29 @@
-@media only screen and (max-width: 1000px) {
-  .carousel-item img {
-    height: 350px;
-    width: auto;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .carousel-item img {
-    height: 200px;
-    width: auto;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .carousel-item img {
-    height: 140px;
-    width: auto;
-  }
-}
-
 .carousel-item img {
   border-radius: 0.5rem;
-  height: 700px;
+  height: auto;
 }
 
 .carousel {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: auto;
+  max-width: 100%;
 }
 
 h1 {
-  color: #f6c253;
+  color: #f8ca67;
   font-family: 'Playfair Display', serif;
   font-size: 46px;
+  text-align: center;
   padding: 20px;
 }
 
 h5 {
-  color: #f6c253;
+  color: #f8ca67;
   font-family: 'Playfair Display', serif;
   font-size: 37px;
 }
 
 p {
-  color: #f6c253;
+  color: #f8ca67;
   font-family: 'Playfair Display', serif;
   font-size: 23px;
   text-align: justify;

@@ -1,14 +1,15 @@
 #foot {
   align-items: center;
   justify-content: space-between;
-  background-color: #3c2c0b;
+  background-color: #3c0b0b;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   position: static;
-  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 #foot h1 {
-  color: #f6c253;
+  color: #f8ca67;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   font-size: 1.5rem;
