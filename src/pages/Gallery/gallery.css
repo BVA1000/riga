@@ -1,15 +1,17 @@
 #gallery h1 {
+  color: #f8ca67;
   text-align: center;
+}
+
+.row {
+  margin: auto;
 }
 
 .galleryImages img {
   border-radius: 0.5rem;
-  height: 750px;
+  height: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 100%;
-}
-
-.galleryImages {
-  margin: auto;
-  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  justify-content: center;
 }

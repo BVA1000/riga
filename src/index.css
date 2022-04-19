@@ -1,9 +1,9 @@
 body {
   background: linear-gradient(
-    to top right,
-    #211508,
-    #5a3710,
-    #c67c06
+    to top left,
+    #3d0d0d,
+    #9e2323,
+    #3d0d0d
   ) !important;
   color: white;
   min-height: 100vh;
