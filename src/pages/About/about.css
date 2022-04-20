@@ -3,6 +3,13 @@
   text-align: center;
 }
 
+#about h2 {
+  color: #f8ca67;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  text-align: center;
+}
+
 #about p {
   color: #f8ca67;
   font-size: 20px;
