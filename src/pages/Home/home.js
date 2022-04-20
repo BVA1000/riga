@@ -11,7 +11,11 @@ function Home() {
     <div className="container">
       <h1>"Dievs Sveti Latviju"</h1>
 
-      <div id="imageCarousel" className="carousel" data-bs-ride="carousel">
+      <div
+        id="imageCarousel"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={daugava} className="d-block w-100" alt="daugava" />
