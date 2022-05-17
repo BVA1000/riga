@@ -10,22 +10,22 @@
 
 h1 {
   color: #f8ca67;
-  font-family: 'Playfair Display', serif;
-  font-size: 46px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
   text-align: center;
   padding: 20px;
 }
 
 h5 {
   color: #f8ca67;
-  font-family: 'Playfair Display', serif;
-  font-size: 37px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
 }
 
 p {
   color: #f8ca67;
-  font-family: 'Playfair Display', serif;
-  font-size: 23px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
   text-align: justify;
   padding: 15px 1px;
 }
