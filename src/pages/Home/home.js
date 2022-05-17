@@ -5,6 +5,7 @@ import bridge from '../../assets/images/bridge.png';
 import sunrise2 from '../../assets/images/sunrise2.png';
 import stpete from '../../assets/images/stpete.png';
 import daugava from '../../assets/images/daugava.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Home() {
   return (
@@ -63,6 +64,11 @@ function Home() {
         where the nation and it's people had to shift gears economically and
         politically.
       </p>
+
+      <FontAwesomeIcon icon="fa-brands fa-facebook-square" />
+      <FontAwesomeIcon icon="fa-brands fa-instagram-square" />
+      <FontAwesomeIcon icon="fa-brands fa-pinterest-square" />
+
       <p>
         The slogan "Dievs Sveit Latviju" is a slogan in Latvian which means "God
         Bless Latvia".

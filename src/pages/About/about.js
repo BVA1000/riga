@@ -24,7 +24,7 @@ function About() {
           through the streets of the Old Town will be an exciting experience for
           anyone visiting Riga.
         </p>
-
+        {/*
         <h2>Old Town Riga</h2>
 
         <p>hhhhhhhhhhhhhhhh</p>
@@ -44,6 +44,7 @@ function About() {
         <h2>Art Nouveau</h2>
 
         <p>hhhhhhhhhhhhhhhh</p>
+  */}
       </div>
     </div>
   );
